@@ -8,13 +8,14 @@ body {
     line-height: 150%;
     color: #333;
     background: #ababab;
+    height: 100%;
   }
 
  .jumbotron {
-     background:#ababab;
+    background:#ababab;
  } 
   header {
-    background: #333;
+    background: white;
   }
   
   h1 {
@@ -33,41 +34,16 @@ body {
   a {
     color: black;
   }
-  
-  /* Selecting elements by class */
+
   .container {
-    width: 1024px;
-    margin: 0 auto;
-  }
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
   
-  /* Selecting elements by ID */
-  #main-bio,
-  #contact-info,
-  #bio-image {
-    float: left;
-  }
-  
-  #figure {
-    position: relative;
-  }
-  
-  #bio-name {
-    position: absolute;
-    top: 150px;
-    left: 30px;
-  }
-  
-  #main-bio {
-    width: 70%;
-  }
-  
-  #contact-info {
-    width: 30%;
-  }
-  
-  #bio-image {
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
-  }
-  
+table {
+    align-items: center;
+    justify-content: center;
+}
+
