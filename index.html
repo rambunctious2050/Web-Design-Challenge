@@ -15,11 +15,91 @@
 
 
   <!-- Our own CSS stylesheet -->
-
+  <link rel="stylesheet" href="WebVisualizations/assets/style.css">
 </head>
 
 <body>
+  
+  
 
+  <div id="accordion">
+    <div data-parent="#accordion" href="">
+      <ul class="nav justify-content-end">
+        <ul class="nav nav-pills">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Max Temperature</a>
+              <a class="dropdown-item" href="#">Humidity</a>
+              <a class="dropdown-item" href="#">Cloudiness</a>
+              <a class="dropdown-item" href="#">Wind Speed</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Data</a>
+          </li>
+        </ul>
+      </ul>
+    </div>
+  </div>
+  
+  
+  <div class="container-fluid">
+    <!-- Row 1 -->
+    <div class="row">
+      <!--Column 1-->
+      <div class="col-md-6">
+        <div class="p-3 mb-2 bg-white text-dark">
+          <!--Add two rows within the main box-->
+          <div class="row">
+            <div class="col-md-12">
+              <h1>Summary: Latitude vs. X</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <img src="WebVisualizations/visualizations/Fig1.png" class="float-left" style="height:250px;margin-right:10px">
+              <p> bkank </p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="p-3 mb-2 bg-white text-dark">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Visualizations</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <img class="mx-auto d-block" src="WebVisualizations/visualizations/Fig1.png" style="height:200px">
+          </div>
+          <div class="col-md-6">
+            <img class="mx-auto d-block" src="WebVisualizations/visualizations/Fig1.png" style="height:200px">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <img class="mx-auto d-block" src="WebVisualizations/visualizations/Fig1.png" style="height:200px">
+          </div>
+          <div class="col-md-6">
+            <img class="mx-auto d-block" src="WebVisualizations/visualizations/Fig1.png" style="height:200px">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+
+  
+
+  
 
   <!-- Javascript -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
