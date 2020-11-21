@@ -8,3 +8,4 @@
 ### Visualizations: The user can view the larger plots in a 2x2 grid, and click on each plot to go directly to the plot's page
 ### Data: The data set is available in a table format on this page
 
+https://rambunctious2050.github.io/Web-Design-Challenge/
